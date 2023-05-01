@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  background-color: #d90429;
+}
+
+button {
+  text-align: center;
+  color: black;
+  background-color: rgb(182, 182, 182);
+  width: 15em;
+  height: 15em;
+  line-height: 50px; /* <- changed this */
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: 5px solid rgb(29, 29, 29);
+}
+
+button {
+  position: relative;
+}
+button img {
+  top: 7px;
+  left: 6.5px;
+  position: absolute;
+  display: block;
+  width: 13.5em;
+  height: 13.5em;
+  cursor: pointer;
+  border-radius: 5em;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.rock,
+.paper,
+.scissors {
+  background-color: rgb(31, 101, 192);
+}
+
+.choices {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 4em;
+  padding-top: 3em;
+}
+
+h1 {
+  padding-top: 0.7em;
+  font-size: 8em;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1em;
+  -webkit-text-stroke: 1.5px rgb(29, 29, 29);
+}
+
+.result-cta .rock-img {
+  top: 590px;
+  left: 25em;
+  position: absolute;
+  display: none;
+}
+.result-cta .paper-img {
+  top: 590px;
+  left: 25em;
+  position: absolute;
+  display: none;
+}
+.result-cta .scissors-img {
+  top: 590px;
+  left: 25em;
+  position: absolute;
+  display: none;
+}
+.result-cta .rock-img2 {
+  top: 590px;
+  right: 25em;
+  position: absolute;
+  display: none;
+}
+.result-cta .paper-img2 {
+  top: 590px;
+  right: 25em;
+  position: absolute;
+  display: none;
+}
+.result-cta .scissors-img2 {
+  top: 590px;
+  right: 25em;
+  position: absolute;
+  display: none;
+}
+
+.score {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  color: white;
+  -webkit-text-stroke: 1.5px rgb(29, 29, 29);
+}
+.score span {
+  margin-left: 0.2em;
+}/*# sourceMappingURL=mian.css.map */
